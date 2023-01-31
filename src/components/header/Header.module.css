@@ -1,0 +1,90 @@
+.sideHeader {
+    background-color: rgba(0, 0, 0, 0.7);;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 260px;
+    height: 100% !important;
+    z-index: 2;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+
+.headerTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+.headerTop h1 {
+    color: aliceblue;
+}
+
+.headerImg {
+    width: 150px;
+    border-radius: 50%;
+
+}
+
+.headerNav {
+
+}
+
+.navUl {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.navItem {
+    padding: 10px 0 10px 0;
+    color: azure;
+}
+
+.navItem a,
+.navItem a:visited,
+.navItem a:hover {
+    color: azure;
+}
+
+.socialIcons {
+    display: flex;
+    flex-direction: row;
+}
+.socialIcon{
+    width: 30px;
+}
+.socialSpan{
+padding: 5px;
+}
+
+@media screen and (max-width: 990px) {
+    .sideHeader {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .sideHeader2 {
+        display: none;
+    }
+}
+
+
+
+.linkHeader {
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.linkHeader:hover {
+    color: green;
+}

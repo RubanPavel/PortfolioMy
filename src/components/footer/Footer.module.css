@@ -1,0 +1,47 @@
+.footerWrapper {
+    background-color: floralwhite;
+
+
+}
+
+.footerTitle {
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.footerH2{
+    text-align: center;
+    color: cadetblue;
+}
+
+.footerContainer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footerForm {
+    width: 45%
+}
+
+.footerInputTop {
+
+
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+
+
+}
+
+.inputControl {
+    width: 48%;
+}
+
+.inputControl2 {
+    width: 100%;
+    height: 100px;
+
+}

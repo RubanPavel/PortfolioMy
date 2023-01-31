@@ -1,0 +1,92 @@
+.contentWrapper {
+    background-color: aliceblue;
+    font-size: 24px;
+}
+
+.homeContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeContent {
+    text-align: center !important;
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+.aboutTitle {
+    font-size: 35px;
+    padding-top: 30px;
+    border-bottom: 3px solid darkcyan;
+    margin-bottom: 10px;
+}
+
+.aboutContent {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aboutText {
+    width: 70%;
+
+
+}
+
+.aboutInfo {
+
+}
+
+.aboutUl {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.aboutLi {
+
+}
+
+.skillsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 20px 0
+}
+
+
+
+
+.examplesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+
+
+
+.remoteWorkContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.remoteWorkContent {
+    margin: 20px 0px 20px 0;
+
+}
+
+.remoteWorkContent a {
+    color: white;
+}

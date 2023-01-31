@@ -1,0 +1,53 @@
+.examplesBlock {
+    width: 200px;
+    margin: 20px;
+ }
+
+.examplesImg {
+
+}
+
+
+
+.examplesInfo {
+    text-align: justify;
+}
+
+.examplesImg {
+    background: url('https://i.ytimg.com/vi/9jfRNaV5N2c/hqdefault.jpg') no-repeat center top;
+}
+
+.examplesLink {
+    color: white;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+
+.examplesText {
+    opacity: 0;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 300px;
+    text-align: center;
+    color: #fff;
+    transition: .5s ease;
+}
+
+.examplesLink:hover .examplesText {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.examplesList {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+

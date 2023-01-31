@@ -1,0 +1,26 @@
+.skillsList {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.skillsBlock {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.skillsImg {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.skillsInfo {
+
+}

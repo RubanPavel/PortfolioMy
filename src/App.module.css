@@ -1,0 +1,16 @@
+.appWrapper {
+    display: flex;
+    margin-left: 260px;
+
+}
+
+.bodyWrapper {
+    width: 100%;
+}
+
+@media screen and (max-width: 990px) {
+    .appWrapper {
+        margin-left: 0px;
+        display: block;
+    }
+}
