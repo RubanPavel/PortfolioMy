@@ -1,0 +1,10 @@
+.socialIcons {
+    display: flex;
+    flex-direction: row;
+}
+.socialIcon{
+    width: 30px;
+}
+.socialSpan{
+    padding: 5px;
+}

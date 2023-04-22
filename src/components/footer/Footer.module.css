@@ -1,22 +1,33 @@
 .footerWrapper {
-    background-color: floralwhite;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
 
+}
 
+.footerTitleTop {
+    display: flex;
+    justify-content: center;
 }
 
 .footerTitle {
     font-size: 35px;
-    text-align: center;
-
+    padding-top: 15px;
+    border-bottom: 3px solid darkcyan;
 }
 
-.footerH2{
+/*.footerInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}*/
+
+.footerH2 {
     text-align: center;
     color: cadetblue;
 }
 
 .footerContainer {
-
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -27,21 +38,45 @@
 }
 
 .footerInputTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.bottomFooterCont {
 
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 10px;
-
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 
-.inputControl {
-    width: 48%;
+.bottomFooterH2 {
+    margin: 0;
+    padding: 5px;
 }
 
-.inputControl2 {
-    width: 100%;
-    height: 100px;
+.linkHeader {
 
+}
+.linkHeaderCont{
+    text-align: left;
+}
+
+.linkHeaderImg {
+    width: 10px;
+    margin: 0 5px 0 5px;
+}
+
+@media screen and (max-width: 850px) {
+    .footerContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
 }

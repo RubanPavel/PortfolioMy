@@ -30,10 +30,11 @@
 .headerImg {
     width: 150px;
     border-radius: 50%;
-
+    border: 5px solid cadetblue;
 }
 
 .headerNav {
+    font-size: 20px;
 
 }
 
@@ -54,16 +55,6 @@
     color: azure;
 }
 
-.socialIcons {
-    display: flex;
-    flex-direction: row;
-}
-.socialIcon{
-    width: 30px;
-}
-.socialSpan{
-padding: 5px;
-}
 
 @media screen and (max-width: 990px) {
     .sideHeader {
@@ -76,7 +67,6 @@ padding: 5px;
         display: none;
     }
 }
-
 
 
 .linkHeader {

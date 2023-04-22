@@ -28,46 +28,30 @@ export const Examples = () => {
             title: 'TODOLIST4',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
         }
-        ,
-        {
-            id: 4,
-            href: 'https://7745.by/',
-            title: 'TODOLIST4',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
-        }
-        ,
-        {
-            id: 4,
-            href: 'https://7745.by/',
-            title: 'TODOLIST4',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
-        }
+
     ]
 
     return (
-
-        <div className={s.examplesList}>
-
-            {arrExamples.map(t =>
-
-                <div key={t.id} className={s.examplesBlock}>
-
-                    <div className={s.examplesImg}>
-                        <a href={t.href} target={"_blank"} className={s.examplesLink}>
-                            <p className={s.examplesText}><i>TODOLIST</i></p>
-                        </a>
+        <div className={s.examplesContainer}>
+            <a id={'Examples'}></a>
+            <h2 className={s.aboutTitle}>My Work</h2>
+            <div className={s.examplesList}>
+                {arrExamples.map(t =>
+                    <div key={t.id} className={s.examplesBlock}>
+                        <div className={s.examplesImg}>
+                            <a href={t.href} target={"_blank"} className={s.examplesLink}>
+                                <p className={s.examplesText}><i>TODOLIST</i></p>
+                            </a>
+                        </div>
+                        <div className={s.examplesInfo}>
+                            <h2>{t.title}</h2>
+                            <p> {t.text}</p>
+                        </div>
                     </div>
-
-                    <div className={s.examplesInfo}>
-                        <h2>{t.title}</h2>
-                        <h3> {t.text}</h3>
-                    </div>
-                </div>
-            )
-
-            }
+                )
+                }
+            </div>
         </div>
-
     );
 };
 

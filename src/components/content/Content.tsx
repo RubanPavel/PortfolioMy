@@ -4,6 +4,7 @@ import {Skills} from "../skills/Skills";
 import {Examples} from "../examples/Examples";
 import {Button} from "@mui/material";
 import Download from '@mui/icons-material/Download';
+import Box from "@mui/material/Box";
 
 export const Content = () => {
     return (
@@ -27,7 +28,7 @@ export const Content = () => {
             </div>
             <a id={'AboutMe'}></a>
             <div className={s.aboutContainer}>
-                <div className={s.aboutTitle}> ABOUT ME</div>
+                <h2 className={s.aboutTitle}> ABOUT ME</h2>
 
                 <div className={s.aboutContent}>
 
@@ -49,46 +50,37 @@ export const Content = () => {
                             <li className={s.aboutLi}>Age: 23</li>
                             <li className={s.aboutLi}>From: Minsk, Belarus</li>
                         </ul>
-                        <Button
-                            variant="outlined"
-                            href="#contained-buttons"
-                            endIcon={<Download/>}
-                            sx={{borderRadius: 28}}
-                        >
-                            Download CV
-                        </Button>
+                        <Box className={s.aboutButton}>
+                            <Button
+                                variant="outlined"
+                                href="#contained-buttons"
+                                endIcon={<Download/>}
+                                sx={{borderRadius: 28}}
+                            >
+                                Download CV
+                            </Button>
+                        </Box>
+
                     </div>
                 </div>
 
             </div>
-            <div className={s.skillsContainer}>
-                <a id={'Skills'}></a>
-                <div className={s.aboutTitle}>My SKILLS</div>
-                <div>
-                    <Skills/>
-                </div>
 
 
-            </div>
+            <Skills/>
 
-            <div className={s.examplesContainer}>
-                <a id={'Examples'}></a>
-                <div className={s.aboutTitle}>My Examples</div>
-                <div>
-                    <Examples/>
-                </div>
-
-            </div>
+            <Examples/>
 
             <div className={s.remoteWorkContainer}>
                 <div className={s.remoteWorkContent}>
                     <h2 className={s.aboutTitle}> Considering remote work options</h2>
                     <Button
                         target={"_blank"}
-                        variant="contained"
+                        variant="outlined"
                         href="https://google.com"
-                        color={"info"}
-                        sx={{borderRadius: 28}}
+                        color={"error"}
+                        size={"large"}
+                        sx={{borderRadius: 28, marginTop: 2}}
                     >
                         Contact with me
                     </Button>

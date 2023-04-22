@@ -2,8 +2,7 @@
     flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
-
-
+    /* width: 1200px;*/
 }
 
 .skillsBlock {
@@ -11,7 +10,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
     margin: 10px;
+    border: 3px solid cadetblue;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: ghostwhite;
 }
 
 .skillsImg {
@@ -20,7 +24,21 @@
 }
 
 
-
 .skillsInfo {
+    text-align: center;
+}
 
+.skillsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+
+}
+
+.aboutTitle {
+    font-size: 35px;
+    border-bottom: 3px solid darkcyan;
+    margin-bottom: 10px;
 }

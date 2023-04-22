@@ -1,6 +1,7 @@
 import React from 'react';
 
 import s from './Header.module.css';
+import {IconsSocial} from "../iconsSocial/IconsSocial";
 
 
 const arrNavItem = [
@@ -31,34 +32,6 @@ const arrNavItem = [
     }
 ]
 
-const arrSocialIcons = [
-    {
-        id: 1,
-        href: 'https://github.com/RubanPavel',
-        src: "https://www.svgrepo.com/show/439173/git.svg",
-        alt: 'H1',
-    },
-    {
-        id: 2,
-        href: 'https://github.com/RubanPavel',
-        src: "https://www.svgrepo.com/show/439173/git.svg",
-        alt: 'A2',
-    },
-    {
-        id: 3,
-        href: 'https://github.com/RubanPavel',
-        src: "https://www.svgrepo.com/show/439173/git.svg",
-        alt: 'S3',
-    },
-    {
-        id: 4,
-        href: 'https://github.com/RubanPavel',
-        src: "https://www.svgrepo.com/show/439173/git.svg",
-        alt: 'E4',
-    }
-]
-
-
 const Header = () => {
     return (
         <div className={s.sideHeader}>
@@ -74,14 +47,7 @@ const Header = () => {
                     </ul>
                 )}
             </div>
-            <div className={s.socialIcons}>
-                {arrSocialIcons.map(t =>
-                    <span className={s.socialSpan} key={t.id}>
-                        <a href={t.href} target={"_blank"}><img className={s.socialIcon} alt={t.alt} src={t.src}/></a>
-                    </span>
-                )}
-            </div>
-
+            <IconsSocial/>
         </div>
     );
 };

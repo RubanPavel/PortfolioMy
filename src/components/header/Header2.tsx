@@ -9,6 +9,7 @@ import Container from '@mui/material/Container';
 import s from "../header/Header.module.css";
 import {createTheme, Typography} from "@mui/material";
 import {ThemeProvider} from "@mui/material";
+import {IconsSocial} from "../iconsSocial/IconsSocial";
 
 
 const pages = [
@@ -38,32 +39,7 @@ const pages = [
         title: 'Contact',
     }
 ]
-const arrSocialIcons = [
-    {
-        id: 1,
-        href: 'https://github.com/RubanPavel',
-        src: "https://www.svgrepo.com/show/439173/git.svg",
-        alt: 'Git',
-    },
-    {
-        id: 2,
-        href: 'https://github.com/RubanPavel',
-        src: "https://www.svgrepo.com/show/439173/git.svg",
-        alt: 'Git',
-    },
-    {
-        id: 3,
-        href: 'https://github.com/RubanPavel',
-        src: "https://www.svgrepo.com/show/439173/git.svg",
-        alt: 'Git',
-    },
-    {
-        id: 4,
-        href: 'https://github.com/RubanPavel',
-        src: "https://www.svgrepo.com/show/439173/git.svg",
-        alt: 'Git',
-    }
-]
+
 
 function ResponsiveAppBar() {
     const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
@@ -128,15 +104,7 @@ function ResponsiveAppBar() {
                                 Pavel Ruban
                             </Typography>
                             <Box>
-                                <div className={s.socialIcons}>
-                                    {arrSocialIcons.map(t =>
-                                        <span className={s.socialSpan} key={t.id}>
-                                            <a href={t.href} target={"_blank"}>
-                                                <img className={s.socialIcon} alt={t.alt} src={t.src}/>
-                                            </a>
-                                        </span>
-                                    )}
-                                </div>
+                                <IconsSocial />
                             </Box>
                         </Toolbar>
                     </Container>
