@@ -1,5 +1,5 @@
 import React from 'react';
-
+import picture from '../img/FotoMy.jpg'
 import s from './Header.module.css';
 import {IconsSocial} from "../iconsSocial/IconsSocial";
 
@@ -36,8 +36,7 @@ const Header = () => {
     return (
         <div className={s.sideHeader}>
             <div className={s.headerTop}>
-                <img className={s.headerImg} alt={'Hello'}
-                     src={'https://production-it-incubator.s3.eu-central-1.amazonaws.com/personal-page-front-public%3Aavatar/Image/66b88a92-3920-44f8-8cdf-e55b60d14466_F3.jpg'}/>
+                <img className={s.headerImg} alt={'Hello'} src={picture}/>
                 <h1> Pavel Ruban </h1>
             </div>
             <div className={s.headerNav}>
