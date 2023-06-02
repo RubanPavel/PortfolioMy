@@ -1,5 +1,5 @@
 import React from 'react';
-import picture from '../img/FotoMy.jpg'
+import picture from '../../img/FotoMy.jpg'
 import s from './Header.module.css';
 import {IconsSocial} from "../iconsSocial/IconsSocial";
 
