@@ -2,13 +2,18 @@
     display: flex;
     justify-content: center;
     text-align: center;
-
+    color: white;
+    background-color: #343a40;
 }
 
 .remoteWorkContent {
     margin: 20px 0px 20px 0;
 
 
+}
+
+.remoteTitle {
+    border-bottom: 3px solid #20c997;
 }
 
 .remoteWorkContent a {

@@ -7,7 +7,7 @@ export const RemoteWork = () => {
 
       <div className={s.remoteWorkContainer}>
         <div className={s.remoteWorkContent}>
-          <h2 className={s.aboutTitle}> Considering remote work options</h2>
+          <h2 className={s.remoteTitle}> Considering remote work options</h2>
           <Button
             target={"_blank"}
             variant="outlined"

@@ -72,7 +72,7 @@ export const Skills = () => {
     return (
         <div className={s.skillsContainer}>
             <a id={'Skills'}></a>
-            <h2 className={s.aboutTitle}>My SKILLS</h2>
+            <h2 className={s.skillsTitle}>My SKILLS</h2>
             <div className={s.skillsList}>
                 {arrSkills.map(t =>
                     <div className={s.skillsBlock} key={t.id}>

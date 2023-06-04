@@ -50,9 +50,9 @@
     background-color: #343a40;
 }
 
-.aboutTitle {
+.skillsTitle {
     color: white;
     font-size: 35px;
-    border-bottom: 3px solid darkcyan;
+    border-bottom: 3px solid #20c997;
     margin-bottom: 10px;
 }

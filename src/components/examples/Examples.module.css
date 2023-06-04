@@ -15,6 +15,16 @@
     text-align: justify;
 }
 
+.examplesInfo h2 {
+    color: #20c997;
+    margin: 10px 0;
+}
+
+.examplesInfo p {
+    color: hsla(0, 0%, 100%, .5);
+    margin: 15px 0;
+}
+
 .examplesImg {
     background: url('https://i.ytimg.com/vi/9jfRNaV5N2c/hqdefault.jpg') no-repeat center top;
 }
@@ -62,10 +72,10 @@
     background-color: #212529;
 }
 
-.aboutTitle {
+.examplesTitle {
     color: white;
     font-size: 35px;
     padding-top: 30px;
-    border-bottom: 3px solid darkcyan;
+    border-bottom: 3px solid #20c997;
     margin-bottom: 10px;
 }
