@@ -20,12 +20,12 @@ const pages = [
     },
     {
         id: 2,
-        href: '#AboutMe',
+        href: '#About',
         title: 'AboutMe',
     },
     {
         id: 3,
-        href: '#AboutMe',
+        href: '#About',
         title: 'Skills',
     },
     {

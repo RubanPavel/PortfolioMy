@@ -1,5 +1,5 @@
 import React from 'react';
-import picture from '../../img/FotoMy.jpg'
+import picture from '../../assets/FotoMy.jpg'
 import s from './Header.module.css';
 import {IconsSocial} from "../iconsSocial/IconsSocial";
 
@@ -12,12 +12,12 @@ const arrNavItem = [
     },
     {
         id: 2,
-        href: '#AboutMe',
+        href: '#About',
         title: 'AboutMe',
     },
     {
         id: 3,
-        href: '#AboutMe',
+        href: '#About',
         title: 'Skills',
     },
     {

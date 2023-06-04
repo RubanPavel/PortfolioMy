@@ -1,0 +1,81 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   /* background-color: #343a40;*/
+    color: white;
+}
+
+.aboutTitle {
+    font-size: 35px;
+    border-bottom: 3px solid darkcyan;
+    margin-bottom: 10px;
+}
+
+.aboutContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+
+    text-align: justify;
+}
+
+.aboutText {
+    width: 65%;
+}
+
+.aboutText span {
+    color: #20c997
+}
+
+.aboutText p {
+    color: hsla(0, 0%, 100%, .5);
+}
+
+
+.aboutInfo {
+    /*  border: 1px solid darkcyan;
+      padding: 10px;
+      border-radius: 5px;*/
+}
+
+.aboutButton {
+    text-align: center;
+}
+
+.aboutUl {
+    list-style-type: none;
+    padding-left: 0;
+    font-family:  monospace;
+}
+
+.aboutLi {
+    padding-bottom: 10px;
+    border-bottom: 1px solid hsla(0,0%,98%,.12);
+}
+
+@media screen and (max-width: 1100px) {
+    .aboutContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        margin: 20px;
+    }
+
+    .aboutText {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+
+    .aboutText h2 {
+        text-align: center;
+    }
+
+}
+
