@@ -76,8 +76,10 @@ const Footer = () => {
                             <Box className={s.footerInputTop}
                                  component="form"
                                  sx={{
+
                                      maxWidth: '100%',
                                      '& .MuiTextField-root': {m: 1},
+
                                  }}
                                  noValidate
                                  autoComplete="off"

@@ -34,7 +34,7 @@ export const Examples = () => {
     return (
         <div className={s.examplesContainer}>
             <a id={'Examples'}></a>
-            <h2 className={s.aboutTitle}>My Work</h2>
+            <h2 className={s.examplesTitle}>My Work</h2>
             <div className={s.examplesList}>
                 {arrExamples.map(t =>
                     <div key={t.id} className={s.examplesBlock}>

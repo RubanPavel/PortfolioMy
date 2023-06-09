@@ -1,8 +1,8 @@
 .footerWrapper {
-    background-color: white;
+    background-color: #212529;
     display: flex;
     flex-direction: column;
-
+    color: white;
 }
 
 .footerTitleTop {
@@ -13,7 +13,7 @@
 .footerTitle {
     font-size: 35px;
     padding-top: 15px;
-    border-bottom: 3px solid darkcyan;
+    border-bottom: 3px solid #20c997;
 }
 
 /*.footerInfo {
@@ -24,7 +24,7 @@
 
 .footerH2 {
     text-align: center;
-    color: cadetblue;
+    color: #20c997;
 }
 
 .footerContainer {
@@ -38,6 +38,7 @@
 }
 
 .footerInputTop {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,7 +48,7 @@
 .bottomFooterCont {
 
     display: flex;
-    background-color: aliceblue;
+
     justify-content: center;
     align-items: center;
     flex-direction: column;
