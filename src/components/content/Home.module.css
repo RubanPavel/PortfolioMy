@@ -1,7 +1,12 @@
-.box{
-
+.box {
     background-image: url("https://phonoteka.org/uploads/posts/2022-09/1663695121_22-phonoteka-org-p-programmist-fon-vkontakte-28.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
 }
+
 .backgroundTint {
     /*background-color: rgba(200,100,0,.3);
     background-blend-mode: multiply;*/
@@ -24,7 +29,8 @@
     color: white;
     z-index: 1;
 }
-.part{
+
+.part {
     position: absolute;
     display: block;
     top: 0;
