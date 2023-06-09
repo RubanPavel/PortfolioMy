@@ -5,8 +5,9 @@ import {Button} from "@mui/material";
 import Download from "@mui/icons-material/Download";
 
 const About = () => {
+
   return (
-    <div>
+    <div data-section id='About'>
       <a id={'About'}></a>
       <div className={s.aboutContainer}>
         <h2 className={s.aboutTitle}> ABOUT ME</h2>

@@ -70,7 +70,7 @@ export const Skills = () => {
     ]
 
     return (
-        <div className={s.skillsContainer}>
+        <div data-section id="Skills" className={s.skillsContainer}>
             <a id={'Skills'}></a>
             <h2 className={s.skillsTitle}>My SKILLS</h2>
             <div className={s.skillsList}>

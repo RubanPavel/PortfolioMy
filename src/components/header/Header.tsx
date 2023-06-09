@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import picture from '../../assets/FotoMy.jpg'
 import s from './Header.module.css';
 import {IconsSocial} from "../iconsSocial/IconsSocial";
@@ -13,11 +13,11 @@ const arrNavItem = [
     {
         id: 2,
         href: '#About',
-        title: 'AboutMe',
+        title: 'About',
     },
     {
         id: 3,
-        href: '#About',
+        href: '#Skills',
         title: 'Skills',
     },
     {
@@ -35,6 +35,41 @@ const arrNavItem = [
 
 const Header = () => {
 
+    const [activeSection, setActiveSection] = useState(null);
+    const sections = useRef([]);
+
+    const handleScroll = () => {
+        const pageYOffset = window.scrollY;
+        let newActiveSection = null;
+
+        sections.current.forEach((section: any) => {
+            const sectionOffsetTop = section.offsetTop;
+            const sectionHeight = section.offsetHeight;
+
+            if (pageYOffset >= sectionOffsetTop && pageYOffset
+                < sectionOffsetTop + sectionHeight) {
+                newActiveSection = section.id;
+            }
+        });
+
+        setActiveSection(newActiveSection);
+    };
+
+    useEffect(() => {
+        // @ts-ignore
+        sections.current = document.querySelectorAll('[data-section]');
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    const activeStyle = {
+        color: '#20c997',
+    };
+
+
     return (
         <div className={s.sideHeader}>
             <div className={s.headerTop}>
@@ -48,7 +83,11 @@ const Header = () => {
             <div className={s.headerNav}>
                 {arrNavItem.map(t =>
                     <ul className={s.navUl} key={t.id}>
-                        <li><a href={t.href} className={s.navItem}>{t.title}</a></li>
+                        <li className={activeSection === t.title ? 'active' : ''}>
+                            <a href={t.href} className={s.navItem} style={activeSection ===
+                            t.title ? activeStyle : {}}>{t.title}
+                            </a>
+                        </li>
                     </ul>
                 )}
             </div>

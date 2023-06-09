@@ -40,7 +40,7 @@ const Footer = () => {
     });
 
     return (
-        <div className={s.footerWrapper}>
+        <div data-section id="Contact" className={s.footerWrapper}>
             <a id={'Contact'}></a>
             <div className={s.footerTitleTop}>
 

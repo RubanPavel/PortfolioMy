@@ -32,7 +32,7 @@ export const Examples = () => {
     ]
 
     return (
-        <div className={s.examplesContainer}>
+        <div data-section id="Examples" className={s.examplesContainer}>
             <a id={'Examples'}></a>
             <h2 className={s.examplesTitle}>My Work</h2>
             <div className={s.examplesList}>
