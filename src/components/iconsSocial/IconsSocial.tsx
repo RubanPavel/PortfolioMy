@@ -2,6 +2,8 @@ import React from 'react';
 import s from './iconsSocial.module.css'
 import git from '../../assets/svgSocial/iconmonstr-github-3.svg'
 import gmail from '../../assets/svgSocial/iconmonstr-gmail-3.svg'
+import telegram from '../../assets/svgSocial/iconmonstr-telegram-3.svg'
+import linkedIn from '../../assets/svgSocial/iconmonstr-linkedin-3.svg'
 
 const arrSocialIcons = [
     {
@@ -19,14 +21,14 @@ const arrSocialIcons = [
     {
         id: 3,
         href: 'https://github.com/RubanPavel',
-        src: "https://www.svgrepo.com/show/439173/git.svg",
-        alt: 'Git',
+        src: linkedIn,
+        alt: 'LinkedIn',
     },
     {
         id: 4,
         href: 'https://github.com/RubanPavel',
-        src: "https://www.svgrepo.com/show/439173/git.svg",
-        alt: 'Git',
+        src: telegram,
+        alt: 'telegram',
     }
 ]
 

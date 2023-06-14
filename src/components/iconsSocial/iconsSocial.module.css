@@ -1,10 +1,13 @@
 .socialIcons {
     display: flex;
     flex-direction: row;
+
 }
 .socialIcon{
-    width: 30px;
+    width: 35px;
+
 }
 .socialSpan{
     padding: 5px;
+
 }
