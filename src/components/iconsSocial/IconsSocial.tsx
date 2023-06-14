@@ -1,9 +1,9 @@
 import React from 'react';
 import s from './iconsSocial.module.css'
-import git from '../../assets/svgSocial/iconmonstr-github-3.svg'
-import gmail from '../../assets/svgSocial/iconmonstr-gmail-3.svg'
-import telegram from '../../assets/svgSocial/iconmonstr-telegram-3.svg'
-import linkedIn from '../../assets/svgSocial/iconmonstr-linkedin-3.svg'
+import git from '../../assets/svgSocial/github.svg'
+import gmail from '../../assets/svgSocial/gmail.svg'
+import telegram from '../../assets/svgSocial/telegram.svg'
+import linkedIn from '../../assets/svgSocial/linkedin.svg'
 
 const arrSocialIcons = [
     {
@@ -37,7 +37,7 @@ export const IconsSocial = () => {
         <div className={s.socialIcons}>
             {arrSocialIcons.map(t =>
                 <span className={s.socialSpan} key={t.id}>
-                    <a href={t.href} target={"_blank"}>
+                    <a href={t.href} target={"_blank"} rel="noopener noreferrer">
                         <img className={s.socialIcon} alt={t.alt} src={t.src}/>
                     </a>
                 </span>
