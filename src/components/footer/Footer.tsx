@@ -1,13 +1,11 @@
 import React from 'react';
 import s from './Footer.module.css';
 import Box from '@mui/material/Box';
-import TextField from '@mui/material/TextField';
 import {IconsSocial} from "../iconsSocial/IconsSocial";
-import {createTheme, ThemeProvider} from "@mui/material";
 import location from '../../assets/svgContact/location.svg'
 import telephone from '../../assets/svgContact/telephone.svg'
 import mail from '../../assets/svgContact/mail.svg'
-import {red} from "@mui/material/colors";
+import Form from "./Form/Form";
 
 
 const arrAddressInfo = [
@@ -33,21 +31,6 @@ const arrAddressInfo = [
 
 
 const Footer = () => {
-
-
-    const theme = createTheme({
-        breakpoints: {
-            values: {
-                xs: 300, // phone
-                sm: 600, // tablets
-                md: 900, // small laptop
-                lg: 1200, // desktop
-                xl: 1536 // large screens
-            },
-
-        },
-    });
-
     return (
         <div data-section id="Contact" className={s.footerWrapper}>
             <a id={'Contact'}></a>
@@ -83,42 +66,7 @@ const Footer = () => {
                 </div>
                 <div className={s.footerForm}>
                     <h2 className={s.footerH2}>SEND US A NOTE</h2>
-                    <form>
-                      {/*  <ThemeProvider theme={theme}>*/}
-                            <Box className={s.footerInputTop}
-                                 component="form"
-                                 sx={{
-
-                                     maxWidth: '100%',
-                                     '& .MuiTextField-root': {m: 1},
-
-                                 }}
-                                 noValidate
-                                 autoComplete="off"
-                            >
-                                <TextField required
-                                           fullWidth
-                                           id="outlined-required"
-                                           label="Name"
-                                           sx={{"& .MuiOutlinedInput-root.Mui-disabled":{"& > fieldset": {border: '1px solid green'}}}}
-                                />
-                                <TextField required
-                                           fullWidth
-                                           id="outlined-required"
-                                           label="Email"
-                                />
-                                <TextField
-                                    fullWidth
-                                    id="outlined-multiline-static"
-                                    label="Message"
-                                    multiline
-                                    rows={8}
-
-                                />
-                            </Box>
-                       {/* </ThemeProvider>*/}
-                    </form>
-
+                    <Form/>
                 </div>
 
             </div>

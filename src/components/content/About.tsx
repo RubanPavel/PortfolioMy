@@ -27,8 +27,8 @@ const About = () => {
 
           <div className={s.aboutInfo}>
             <ul className={s.aboutUl}>
-              <li className={s.aboutLi}>Name:Pavel Ruban</li>
-              <li className={s.aboutLi}>Email: 123@gmail.com</li>
+              <li className={s.aboutLi}>Name: Pavel Ruban</li>
+              <li className={s.aboutLi}>Email: Ruban.public@gmail.com</li>
               <li className={s.aboutLi}>Age: 23</li>
               <li className={s.aboutLi}>From: Minsk, Belarus</li>
             </ul>
