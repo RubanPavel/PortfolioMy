@@ -61,17 +61,28 @@
 }
 
 .linkHeader {
-
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: left;
 }
+
+.linkHeader:last-child {
+    align-items: center;
+}
+
 
 .linkHeaderCont {
     text-align: left;
 }
 
+
 .linkHeaderImg {
-    width: 10px;
-    margin: 0 5px 0 5px;
+    width: 18px;
+    margin: 10px 5px 0 5px;
 }
+
 
 @media screen and (max-width: 850px) {
     .footerContainer {
@@ -82,3 +93,4 @@
         align-items: center;
     }
 }
+

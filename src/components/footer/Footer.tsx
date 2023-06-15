@@ -4,28 +4,36 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import {IconsSocial} from "../iconsSocial/IconsSocial";
 import {createTheme, ThemeProvider} from "@mui/material";
+import location from '../../assets/svgContact/location.svg'
+import telephone from '../../assets/svgContact/telephone.svg'
+import mail from '../../assets/svgContact/mail.svg'
+import {red} from "@mui/material/colors";
+
 
 const arrAddressInfo = [
     {
         id: 1,
-        info: '+375297777777',
-        src: 'https://cdn-icons-png.flaticon.com/512/5585/5585562.png',
-        alt: 'tel'
+        info: '+375 29 115-81-65',
+        src: telephone,
+        alt: 'telephone'
     },
     {
         id: 2,
         info: 'Minsk, Belarus',
-        src: 'https://cdn-icons-png.flaticon.com/512/5585/5585562.png'
+        src: location,
+        alt: 'location'
     },
     {
         id: 3,
-        info: 'ruban.public@gmail.com',
-        src: 'https://cdn-icons-png.flaticon.com/512/5585/5585562.png'
+        info: 'Ruban.public@gmail.com',
+        src: mail,
+        alt: 'mail'
     },
 ]
 
 
 const Footer = () => {
+
 
     const theme = createTheme({
         breakpoints: {
@@ -35,8 +43,9 @@ const Footer = () => {
                 md: 900, // small laptop
                 lg: 1200, // desktop
                 xl: 1536 // large screens
-            }
-        }
+            },
+
+        },
     });
 
     return (
@@ -53,10 +62,13 @@ const Footer = () => {
                     {arrAddressInfo.map(t =>
                         <div className={s.linkHeaderCont} key={t.id}>
                             <p className={s.linkHeader}>
-                                <img className={s.linkHeaderImg}
-                                     alt={t.alt}
-                                     src={t.src}
-                                />
+                                <span>
+                                    <img className={s.linkHeaderImg}
+                                         alt={t.alt}
+                                         src={t.src}
+                                    />
+                                </span>
+
                                 {t.info}
                             </p>
                         </div>
@@ -72,7 +84,7 @@ const Footer = () => {
                 <div className={s.footerForm}>
                     <h2 className={s.footerH2}>SEND US A NOTE</h2>
                     <form>
-                        <ThemeProvider theme={theme}>
+                      {/*  <ThemeProvider theme={theme}>*/}
                             <Box className={s.footerInputTop}
                                  component="form"
                                  sx={{
@@ -88,6 +100,7 @@ const Footer = () => {
                                            fullWidth
                                            id="outlined-required"
                                            label="Name"
+                                           sx={{"& .MuiOutlinedInput-root.Mui-disabled":{"& > fieldset": {border: '1px solid green'}}}}
                                 />
                                 <TextField required
                                            fullWidth
@@ -103,7 +116,7 @@ const Footer = () => {
 
                                 />
                             </Box>
-                        </ThemeProvider>
+                       {/* </ThemeProvider>*/}
                     </form>
 
                 </div>
