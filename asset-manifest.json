@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/PortfolioMy/static/css/main.edccf42c.css",
+    "main.js": "/PortfolioMy/static/js/main.07b507d2.js",
+    "static/js/787.28cb0dcd.chunk.js": "/PortfolioMy/static/js/787.28cb0dcd.chunk.js",
+    "static/media/FotoMy.jpg": "/PortfolioMy/static/media/FotoMy.7be57db67e8298d01357.jpg",
+    "static/media/Redux.svg": "/PortfolioMy/static/media/Redux.92756ba3dad218a2d91ed900e8abd730.svg",
+    "static/media/telephone.svg": "/PortfolioMy/static/media/telephone.7733adbeb278e84ffc071c2d297102f6.svg",
+    "static/media/Webstorm.svg": "/PortfolioMy/static/media/Webstorm.fb675fb087264cd885dba2b3f3ee0f8e.svg",
+    "static/media/HTML.svg": "/PortfolioMy/static/media/HTML.20e031454937289d008bcc7b4490b7ca.svg",
+    "static/media/github.svg": "/PortfolioMy/static/media/github.225914d8d6eb094a39b0974120fc1e7f.svg",
+    "static/media/gmail.svg": "/PortfolioMy/static/media/gmail.a6863a0b0600c7c06a51c2e70e0923a5.svg",
+    "static/media/linkedin.svg": "/PortfolioMy/static/media/linkedin.046e34eae147bec281cecad713980dd9.svg",
+    "static/media/TS.svg": "/PortfolioMy/static/media/TS.a9def0a4d80b08841f0af9e4e5689d26.svg",
+    "static/media/location.svg": "/PortfolioMy/static/media/location.772f1f6eab44828d13de60d0a73b1e67.svg",
+    "static/media/MUI.svg": "/PortfolioMy/static/media/MUI.4c7cf254afeceb2f2b717dd7d0c38378.svg",
+    "static/media/Sass.svg": "/PortfolioMy/static/media/Sass.8ca28f401fcd4fbe86b5d5d61ec6d071.svg",
+    "index.html": "/PortfolioMy/index.html",
+    "static/media/JS.svg": "/PortfolioMy/static/media/JS.5f1ebf6943de61ff1639e8f45f035e59.svg",
+    "static/media/mail.svg": "/PortfolioMy/static/media/mail.e7ea90fdd8c8b32e375402249df707f0.svg",
+    "static/media/telegram.svg": "/PortfolioMy/static/media/telegram.005e7989fba6b97ef05372166073a417.svg",
+    "static/media/CSS.svg": "/PortfolioMy/static/media/CSS.d5b17016a8226d4dfd571e6d301d2cc3.svg",
+    "static/media/React.svg": "/PortfolioMy/static/media/React.0ebb2be8b73febbcc92b6495282b151b.svg",
+    "main.edccf42c.css.map": "/PortfolioMy/static/css/main.edccf42c.css.map",
+    "main.07b507d2.js.map": "/PortfolioMy/static/js/main.07b507d2.js.map",
+    "787.28cb0dcd.chunk.js.map": "/PortfolioMy/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edccf42c.css",
+    "static/js/main.07b507d2.js"
+  ]
+}
