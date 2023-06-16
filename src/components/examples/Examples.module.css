@@ -1,6 +1,6 @@
 .examplesBlock {
     width: 230px;
-    margin:  40px;
+    margin: 40px;
     padding: 10px;
     background-color: #111418;
     border-radius: 10px;
@@ -75,7 +75,17 @@
 .examplesTitle {
     color: white;
     font-size: 35px;
-    padding-top: 30px;
-    border-bottom: 3px solid #20c997;
     margin-bottom: 10px;
+    position: relative;
+}
+
+.examplesTitle:before {
+    content: '';
+    position: absolute;
+    background: #20c997;
+    width: 75px;
+    height: 2px;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%, 50%);
 }

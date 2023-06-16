@@ -51,8 +51,8 @@ const Footer = () => {
                                          src={t.src}
                                     />
                                 </span>
+                                <span style={{paddingBottom:'2px'}}>{t.info}</span>
 
-                                {t.info}
                             </p>
                         </div>
                     )}

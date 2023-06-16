@@ -22,12 +22,12 @@
 
 .skillsBlock h2 {
     color: #20c997;
-    margin: 10px 0 ;
+    margin: 10px 0;
 }
 
 .skillsBlock p {
     color: hsla(0, 0%, 100%, .5);
-    margin: 15px 0 ;
+    margin: 15px 0;
 }
 
 .skillsImg {
@@ -53,6 +53,17 @@
 .skillsTitle {
     color: white;
     font-size: 35px;
-    border-bottom: 3px solid #20c997;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.skillsTitle:before {
+    content: '';
+    position: absolute;
+    background: #20c997;
+    width: 75px;
+    height: 2px;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%, 50%);
 }

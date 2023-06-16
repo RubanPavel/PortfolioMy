@@ -14,19 +14,19 @@ const arrSocialIcons = [
     },
     {
         id: 2,
-        href: 'https://github.com/RubanPavel',
+        href: 'mailto:ruban.public@gmail.com?subject=Отклик',
         src: gmail,
         alt: 'Gmail',
     },
     {
         id: 3,
-        href: 'https://github.com/RubanPavel',
+        href: 'https://www.linkedin.com/in/pavel-ruban',
         src: linkedIn,
         alt: 'LinkedIn',
     },
     {
         id: 4,
-        href: 'https://github.com/RubanPavel',
+        href: 'https://t.me/Rabls_I',
         src: telegram,
         alt: 'telegram',
     }

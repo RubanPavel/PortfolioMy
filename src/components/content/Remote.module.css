@@ -13,7 +13,18 @@
 }
 
 .remoteTitle {
-    border-bottom: 3px solid #20c997;
+    position: relative;
+}
+
+.remoteTitle:before {
+    content: '';
+    position: absolute;
+    background: #20c997;
+    width: 75px;
+    height: 2px;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%, 50%);
 }
 
 .remoteWorkContent a {
