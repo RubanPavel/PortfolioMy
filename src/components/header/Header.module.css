@@ -74,10 +74,14 @@
     }
 }
 
+.divHeader{
+    padding: 7px;
+}
+
 
 .linkHeader {
     color: white;
-    margin: 10px;
+    margin: 15px;
     font-size: 18px;
 }
 

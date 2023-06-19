@@ -30,8 +30,8 @@ const pages = [
     },
     {
         id: 4,
-        href: '#Examples',
-        title: 'Examples',
+        href: '#Projects',
+        title: 'Projects',
     },
     {
         id: 5,
@@ -93,7 +93,7 @@ function ResponsiveAppBar() {
                                     onClose={handleCloseNavMenu}
                                 >
                                     {pages.map(t =>
-                                        <div key={t.id}>
+                                        <div className={s.divHeader} key={t.id}>
                                             <a href={t.href} className={s.linkHeader}>{t.title}</a>
                                         </div>
                                     )}
@@ -104,7 +104,7 @@ function ResponsiveAppBar() {
                                 Pavel Ruban
                             </Typography>
                             <Box>
-                                <IconsSocial />
+                                <IconsSocial/>
                             </Box>
                         </Toolbar>
                     </Container>

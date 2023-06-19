@@ -22,8 +22,8 @@ const arrNavItem = [
     },
     {
         id: 4,
-        href: '#Examples',
-        title: 'Examples',
+        href: '#Projects',
+        title: 'Projects',
     },
     {
         id: 5,

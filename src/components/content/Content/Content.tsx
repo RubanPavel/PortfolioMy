@@ -1,6 +1,6 @@
 import React from 'react';
 import {Skills} from "../skills/Skills";
-import {Examples} from "../examples/Examples";
+import {Projects} from "../examples/Projects";
 import RemoteWork from "../RemoteWork/RemoteWork";
 import Home from "../Home/Home";
 import s from './Content.module.css'
@@ -13,7 +13,7 @@ export const Content = () => {
             <Home/>
             <About/>
             <Skills/>
-            <Examples/>
+            <Projects/>
             <RemoteWork/>
         </div>
     );

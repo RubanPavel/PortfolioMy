@@ -1,4 +1,4 @@
-.examplesBlock {
+.projectsBlock {
     width: 230px;
     margin: 40px;
     padding: 10px;
@@ -6,30 +6,31 @@
     border-radius: 10px;
 }
 
-.examplesImg {
+.projectsImg {
 
 }
 
-.examplesInfo {
+.projectsInfo {
     color: white;
     text-align: justify;
 }
 
-.examplesInfo h2 {
+.projectsInfo h2 {
+    text-align: center;
     color: #20c997;
     margin: 10px 0;
 }
 
-.examplesInfo p {
+.projectsInfo p {
     color: hsla(0, 0%, 100%, .5);
     margin: 15px 0;
 }
 
-.examplesImg {
+/*.projectsImg {
     background: url('https://i.ytimg.com/vi/9jfRNaV5N2c/hqdefault.jpg') no-repeat center top;
-}
+}*/
 
-.examplesLink {
+.projectsLink {
     color: white;
     height: 100px;
     width: 100px;
@@ -37,10 +38,11 @@
 }
 
 
-.examplesText {
+.projectsText {
+    margin: 15px 0;
     opacity: 0;
     font-size: 30px;
-    font-weight: 700;
+    /*font-weight: 700;*/
     font-family: 'Segoe UI', sans-serif;
     line-height: 300px;
     text-align: center;
@@ -48,13 +50,13 @@
     transition: .5s ease;
 }
 
-.examplesLink:hover .examplesText {
+.projectsLink:hover .projectsText {
     opacity: 1;
     background: rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
 
-.examplesList {
+.projectsList {
     margin-top: 15px;
     display: flex;
     flex-direction: row;
@@ -65,21 +67,21 @@
 }
 
 
-.examplesContainer {
+.projectsContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #212529;
 }
 
-.examplesTitle {
+.projectsTitle {
     color: white;
     font-size: 35px;
     margin-bottom: 10px;
     position: relative;
 }
 
-.examplesTitle:before {
+.projectsTitle:before {
     content: '';
     position: absolute;
     background: #20c997;

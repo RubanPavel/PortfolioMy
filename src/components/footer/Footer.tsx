@@ -6,6 +6,7 @@ import location from '../../assets/svgContact/location.svg'
 import telephone from '../../assets/svgContact/telephone.svg'
 import mail from '../../assets/svgContact/mail.svg'
 import Form from "./Form/Form";
+import FotterContent from "./Form/FotterContent";
 
 
 const arrAddressInfo = [
@@ -32,7 +33,7 @@ const arrAddressInfo = [
 
 const Footer = () => {
     return (
-        <div data-section id="Contact" className={s.footerWrapper}>
+        <div data-section id="Contact"  className={s.footerWrapper}>
             <a id={'Contact'}></a>
             <div className={s.footerTitleTop}>
 
@@ -51,7 +52,7 @@ const Footer = () => {
                                          src={t.src}
                                     />
                                 </span>
-                                <span style={{paddingBottom:'2px'}}>{t.info}</span>
+                                <span style={{paddingBottom: '2px'}}>{t.info}</span>
 
                             </p>
                         </div>
@@ -70,13 +71,8 @@ const Footer = () => {
                 </div>
 
             </div>
-            <div className={s.bottomFooterCont}>
 
-                <p className={s.bottomFooterH2}> Minsk, Belarus</p>
-                <p className={s.bottomFooterH2}>© 2023 All Rights Reserved</p>
-
-
-            </div>
+            <FotterContent/>
         </div>
     );
 };

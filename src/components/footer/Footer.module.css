@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     color: white;
-    /*  height: 100vh;*/
+    min-height: 100vh;
 }
 
 .footerTitleTop {
@@ -58,9 +58,9 @@
 }
 
 .bottomFooterCont {
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
-
+    /*margin-bottom: 50px;*/
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -100,6 +100,10 @@
         justify-content: center;
         text-align: center;
         align-items: center;
+    }
+    .footerForm {
+        width: auto;
+
     }
 }
 

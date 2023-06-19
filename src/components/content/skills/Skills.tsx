@@ -17,62 +17,62 @@ export const Skills = () => {
             id: 1,
             src: html,
             title: 'HTML',
-           /* text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'*/
+            text: 'Fundamentals HTML tags, form and validation, semantic HTML'
         },
         {
             id: 2,
             src: css,
             title: 'CSS',
-            /*text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'*/
+            text: 'Positioning, box modal, selectors, flexbox, media queries, transformation & animation'
         },
         {
             id: 3,
             src: react,
             title: 'React',
-          /*  text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'*/
+            text: 'Class and functional components, state & props, components life-cycle, routing, conditional rendering, HOC'
         },
         {
             id: 4,
             src: ts,
             title: 'TypeScript',
-            /*text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'*/
+            text: 'Data types, basic syntax, functions, promises, scope, event loop, async/await'
         },
         {
             id: 5,
             src: js,
             title: 'JavaScript',
-            /*text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'*/
+            text: 'Data types, basic syntax, functions, promises, scope, event loop, async/await'
         },
         {
             id: 6,
             src: webstorm,
             title: 'WebStorm',
-            /*text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'*/
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
         },
         {
             id: 7,
             src: mui,
             title: 'MUI',
-         /*   text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'*/
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
         },
         {
             id: 8,
             src: sass,
             title: 'Sass',
-      /*      text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'*/
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
         },
         {
             id: 9,
             src: Redux,
             title: 'Redux',
-            /*text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'*/
+            text: 'Actions & thunks, reducer, context API, store, flux'
         }
     ]
 
     return (
         <div data-section id="Skills" className={s.skillsContainer}>
             <a id={'Skills'}></a>
-            <h2 className={s.skillsTitle}>My SKILLS</h2>
+            <h2 className={s.skillsTitle}>Skills</h2>
             <div className={s.skillsList}>
                 {arrSkills.map(t =>
                     <div className={s.skillsBlock} key={t.id}>
@@ -80,8 +80,8 @@ export const Skills = () => {
                              src={t.src}
                              alt={'Hello'}/>
                         <h3>{t.title}</h3>
-                      {/*  <p className={s.skillsInfo}>
-                            {t.text}
+                        {/* <p className={s.skillsInfo}>
+                           {t.text}
                         </p>*/}
                     </div>
                 )}
