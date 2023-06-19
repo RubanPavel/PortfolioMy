@@ -7,7 +7,7 @@
 }
 
 .skillsBlock {
-    width: 250px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,9 +20,9 @@
 
 }
 
-.skillsBlock h2 {
+.skillsBlock h3 {
     color: #20c997;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .skillsBlock p {
@@ -33,7 +33,7 @@
 .skillsImg {
     width: 80px;
     height: 80px;
-
+    margin-top: 20px;
 }
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import s from "../examples/Examples.module.css";
+import s from "./Examples.module.css";
 
 export const Examples = () => {
 
